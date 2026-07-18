@@ -1,0 +1,4 @@
+# Loom — only tasks.txt is committed
+*
+!tasks.txt
+!.gitignore

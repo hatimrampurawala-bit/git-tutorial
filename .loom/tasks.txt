@@ -1,0 +1,30 @@
+# git-tutorial — loom tasks
+# Format: (PRIORITY) YYYY-MM-DD Title +project @tag key:value
+# Priorities: A=critical B=important C=normal D=low
+
+
+
+
+
+(B) 2026-06-06 this is a test task +test-project @test-tag model:claude friction:3 id:task-01ktes
+
+(A) 2026-06-11 Set up initial repository configuration +git-tutorial @setup model:gemini-3.5-flash state:reviewing budget:100 friction:1 id:task-setup01
+(B) 2026-06-11 Write unit tests for authentication helpers +git-tutorial @testing model:claude-3.5-sonnet budget:250 friction:2 id:task-test02
+(C) 2026-06-11 Document CLI commands and options +git-tutorial @docs model:gpt-4o budget:50 friction:1 id:task-docs03
+(A) 2026-06-11 Implement user profile page UI +features @frontend model:gemini-3.5-flash budget:500 friction:3 id:task-ui04
+2026-06-11 Fix race condition in task scheduler +features @bug model:claude-3.5-sonnet state:refining budget:300 friction:4 id:task-bug05
+(C) 2026-06-11 Optimize SQL database queries +refactoring @database model:gpt-4o state:prompting budget:150 friction:3 id:task-db06
+2026-06-11 Clean up unused dependencies +refactoring @cleanup model:gemini-3.5-flash budget:50 friction:1 id:task-clean07
+(A) 2026-06-11 Integrate Stripe payment gateway +features @backend model:claude-3.5-sonnet budget:1000 friction:5 id:task-pay08
+(B) 2026-06-11 Design brand assets and logo +marketing @design model:dall-e-3 state:prompting budget:200 friction:2 id:task-logo09
+(C) 2026-06-11 Setup Github Actions CI/CD pipeline +git-tutorial @devops model:gpt-4o budget:150 friction:2 id:task-ci10
+(B) 2026-06-11 Resolve security vulnerability in lodash +refactoring @security model:claude-3.5-sonnet budget:100 friction:2 id:task-sec11
+(B) 2026-06-11 Implement dark mode theme +features @frontend model:gemini-3.5-flash budget:300 friction:2 id:task-dark13
+(C) 2026-06-11 Setup integration tests on staging server +git-tutorial @testing model:claude-3.5-sonnet budget:400 friction:3 id:task-stg13
+(D) 2026-06-11 Update developer onboarding documentation +git-tutorial @docs model:gpt-4o budget:50 friction:1 id:task-onb14
+(C) 2026-06-11 Refactor API error handling middleware +refactoring @backend model:claude-3.5-sonnet state:blocked budget:350 friction:3 id:task-err15
+(B) 2026-06-11 Set up Prometheus metrics and dashboard +features @devops model:gpt-4o state:refining budget:600 friction:4 id:task-prom16
+(C) 2026-06-11 Conduct user accessibility audit +features @audit model:gemini-3.5-flash budget:200 friction:2 id:task-acc17
+(D) 2026-06-11 Research web-sockets for live notifications +features @research model:claude-3.5-sonnet budget:150 friction:1 id:task-ws18
+(A) 2026-06-11 Implement rate limiter on public endpoints +refactoring @security model:gpt-4o state:prompting budget:250 friction:3 id:task-rate19
+(B) 2026-06-11 Configure environment variables for production +git-tutorial @setup model:gemini-3.5-flash budget:100 friction:1 id:task-env20
